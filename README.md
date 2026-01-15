@@ -12,14 +12,14 @@ Measure the potential 1-day loss for a single stock (e.g., AAPL) under worst-cas
 
 ## 3. Model Assumptions
 
-- Use log returns: r*t = \ln(S_t / S*{t-1})$
+- Use log returns: $r*t = \ln(S_t / S*{t-1})$
 - Assume daily returns are normally distributed
 - Tomorrow's return follows the same μ and σ as estimated from historical data
 
 ## 4. Method
 
 1. Fetch historical daily prices using `yfinance`
-2. Compute log returns: r*t = \ln(S_t / S*{t-1})$
+2. Compute log returns: $r*t = \ln(S_t / S*{t-1})$
 3. Estimate mean (μ) and standard deviation (σ) from historical returns
 4. Simulate 10,000 possible tomorrow returns using Monte Carlo
 5. Calculate 5% VaR (percentile) and Expected Shortfall (average of worst 5% losses)
