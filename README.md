@@ -31,7 +31,7 @@ Measure the potential 1-day loss for a single stock (e.g., AAPL) under worst-cas
 
 ### Visualization
 
-![Simulated 1-Day Returns with VaR and ES] (figures/simulated_returns_var_es.png)
+![Simulated 1-Day Returns with VaR and ES](figures/simulated_returns_var_es.png)
 
 ## 6. Notes and Limitations
 
